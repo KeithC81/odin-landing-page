@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hero {
+    background-color: #1f2937;
+    width: 100%;
+
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.navbar, ul {
+    display: flex;
+
+}
+.navbar ul {
+    gap: 2rem;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: chartreuse;
+}

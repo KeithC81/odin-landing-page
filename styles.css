@@ -123,3 +123,25 @@ input[type="submit"]:hover {
     padding-bottom: 4rem;
     
 }
+.call-to-action {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-container {
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    color: #f9faf8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cta-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.cta-wrapper form {
+    margin: 0 50px 50px 30px;
+}
